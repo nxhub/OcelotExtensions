@@ -15,6 +15,8 @@
     <PackageTags>nxhub ocelot</PackageTags>
     <PackageReleaseNotes>完成初步接口。</PackageReleaseNotes>
     <Description>更易用的 Ocelot 到 ASP.NET Core 的集成接口：services.AddOcelot(config =&gt; {...});</Description>
+    <PackageProjectUrl>https://github.com/nxhub/OcelotExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nxhub/OcelotExtensions.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
