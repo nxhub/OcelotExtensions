@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>NXHub.Extensions.Ocelot</AssemblyName>
+    <RootNamespace>NXHub.Extensions.Ocelot</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <Authors>NXHub</Authors>
+    <Copyright>Copyright © NXHub</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>MIT</RepositoryType>
+    <PackageTags>nxhub ocelot</PackageTags>
+    <PackageReleaseNotes>完成初步接口。</PackageReleaseNotes>
+    <Description>更易用的 Ocelot 到 ASP.NET Core 的集成接口：services.AddOcelot(config =&gt; {...});</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ocelot" Version="16.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
