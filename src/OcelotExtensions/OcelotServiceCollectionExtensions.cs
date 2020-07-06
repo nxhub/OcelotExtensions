@@ -6,14 +6,12 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class OcelotServiceCollectionExtensions
     {
-        public static IServiceCollection AddOcelot(
+        public static IOcelotBuilder AddOcelot(
             this IServiceCollection services, Action<FileConfiguration> configureBinder)
         {
             services.Configure(configureBinder);
 
-            services.AddOcelot();
-
-            return services;
+            return services.AddOcelot();
         }
     }
 }
