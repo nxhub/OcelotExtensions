@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace OcelotExtensions.Demo
+namespace OcelotExtensions.Sample
 {
     public class Startup
     {

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace OcelotExtensions.Demo
+namespace OcelotExtensions.Sample
 {
     public class Program
     {
